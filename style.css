@@ -1,0 +1,91 @@
+body {
+    background: #999;
+    font-family: arial;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+li {
+    background: #666;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+button {
+    display: block;
+    color: black;
+    margin: auto;
+    width: 50%;
+}
+
+.second {
+    color: white;
+}
+
+.gatech {
+    display: block;
+    text-align: center;
+}
+
+#welcome {
+    font-family: verdana;
+    font-size: 20pt;
+}
+
+header {
+    padding: 15px 15px 0 15px;
+    background: white;
+}
+
+header h1 {
+    display: inline;
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0 0 0 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    background: black;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.col {
+    float: left;
+    background: #777;
+    width: 31%;
+    padding: 10px 0.5%;
+    margin: 0.5%;
+    border-radius: 5px;
+}
