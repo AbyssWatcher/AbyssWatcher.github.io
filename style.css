@@ -1,66 +1,42 @@
 body {
-    background: #999;
-    font-family: arial;
+    background: #f6f6ef;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 h1 {
+    display: inline;
     color: black;
-    text-align: center;
-}
-
-a {
-    color: blue;
-    text-align: center;
-}
-
-p {
-    padding: 10px;
-    color: black;
-    text-align: center;
-}
-
-li {
-    background: #666;
-    padding: 10px;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px 0;
+    line-height: 60px;
 }
 
 img {
     display: block;
     margin: auto;
-    width: 50%;
-}
-
-button {
-    display: block;
-    color: black;
-    margin: auto;
-    width: 50%;
-}
-
-.second {
-    color: white;
-}
-
-.gatech {
-    display: block;
-    text-align: center;
-}
-
-#welcome {
-    font-family: verdana;
-    font-size: 20pt;
+    width: 25%;
 }
 
 header {
     padding: 15px 15px 0 15px;
-    background: white;
+    background: #99ffff;
+    color: black;
 }
 
 header h1 {
-    display: inline;
     margin: 0;
+    padding: 14px 30px 10px;
+    background: #FFF999;
+    border-radius: 10px;
+}
+
+header nav {
+    background: #FFF999;
+}
+
+header nav a .brand-logo {
+    color: black;
 }
 
 nav ul {
@@ -71,21 +47,23 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    list-style-type: none;
-    color: white;
-    background: black;
+    color: black;
     padding: 5px 10px;
 }
 
 nav ul li a {
-    color: white;
+    color: black;
+    font-size: 15pt;
+    text-transform: uppercase;
 }
 
-.col {
-    float: left;
-    background: #777;
-    width: 31%;
-    padding: 10px 0.5%;
-    margin: 0.5%;
-    border-radius: 5px;
+.border {
+    border: #eacb7c;
 }
+
+.container .center {
+    border: 5px solid #42a5f5;
+    background: #42a5f5;
+    text-align: center;
+}
+

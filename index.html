@@ -4,32 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Austin Cho</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
     <header>
-        <nav>
-            <h1>Austin Cho</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">My Projects</a></li>
-                <li><a href="contact.html">Contact Page</a></li>
-            </ul>
+        <nav class="text-center">
+            <a href="#" class="brand-logo center black-text">Austin Cho</a>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left center hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+                <ul class="right center hide-on-med-and-down">
+                    <li><a href="projects.html">My Projects</a></li>
+                    <li><a href="contact.html">Contact Page</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <div class="row">
-        <div class="col">col1</div>
-        <div class="col">col2</div>
-        <div class="col">col3</div>
+    <div class="container">
+        <div class="z-depth-3">
+            <h4 class="center">Home</h4>
+        </div>
     </div>
 
-    <p id="welcome">Welcome to my website!</p>
-    <a class="gatech" href="https://www.gatech.edu">I'm currently attending Georgia Tech</a><br>
-    <img src="http://www.comm.gatech.edu/sites/comm.gatech.edu/files/images/georgia-institute-of-technology-874black_0.png"><br>
-    <button type="button" onclick= "change()"">Click Here</button><br>
-    <script src="changeText.js"></script>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to My Website</h1>
+            <p>This is the personal website of Austin Cho.</p>
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384
+    -Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
 </body>
 </html>
