@@ -12,12 +12,6 @@ h1 {
     line-height: 60px;
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 25%;
-}
-
 header {
     padding: 15px 15px 0 15px;
     background: #99ffff;
@@ -66,4 +60,24 @@ nav ul li a {
     background: #42a5f5;
     text-align: center;
 }
+
+.margins {
+    width: 800px;
+}
+
+#background {
+    font-size: 16pt;
+}
+
+img {
+    margin-right: 80px;
+}
+
+.card-panel {
+    width: 80%;
+}
+
+
+
+
 
